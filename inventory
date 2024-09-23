@@ -1,7 +1,7 @@
-[servers]
+[web_servers]
+43.204.101.53 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/ansible
 
-3.109.59.39 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/ansible
 
-
-3.110.103.25 ansible_user=ec2-user ansible_ssh_private_key_file=~/.ssh/ansible 
+[db_servers]
+3.109.157.116 ansible_user=ec2-user ansible_ssh_private_key_file=~/.ssh/ansible 
 
